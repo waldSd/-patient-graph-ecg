@@ -52,6 +52,7 @@ venv.bak/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+training_notebook.ipynb  # Ancien notebook avec mentions thèse (obsolète)
 
 # IDEs
 .vscode/
