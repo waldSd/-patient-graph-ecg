@@ -1,0 +1,22 @@
+{
+  "train": {
+    "avg_representativeness": 0.948743559188635,
+    "min_representativeness": 0.0,
+    "max_representativeness": 0.9999989940279703,
+    "avg_atypicality": 0.05125465220639381,
+    "min_atypicality": 0.0,
+    "max_atypicality": 0.9999989940195645
+  },
+  "test": {
+    "avg_representativeness": 0.8963144096130955,
+    "min_representativeness": 0.0,
+    "max_representativeness": 0.9999978140198146,
+    "avg_atypicality": 0.10368218244679926,
+    "min_atypicality": 0.0,
+    "max_atypicality": 0.999997814065346
+  },
+  "differences": {
+    "representativeness": 0.05242914957553946,
+    "atypicality": 0.05242753024040545
+  }
+}

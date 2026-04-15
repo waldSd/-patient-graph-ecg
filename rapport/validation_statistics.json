@@ -1,0 +1,34 @@
+{
+  "train_set": {
+    "n_patients": 800,
+    "avg_representativeness": 0.948743559188635,
+    "std_representativeness": 0.06482856115950049,
+    "avg_atypicality": 0.05125465220639381,
+    "std_atypicality": 0.06482892268981161,
+    "n_prototypes": 10,
+    "n_atypical": 10
+  },
+  "test_set": {
+    "n_patients": 200,
+    "avg_representativeness": 0.8963144096130955,
+    "std_representativeness": 0.11717304167530335,
+    "avg_atypicality": 0.10368218244679926,
+    "std_atypicality": 0.11717158439271888,
+    "n_prototypes": 10,
+    "n_atypical": 10
+  },
+  "comparison": {
+    "repr_difference": 0.05242914957553946,
+    "repr_difference_pct": 5.526166588195533,
+    "atyp_difference": 0.05242753024040545,
+    "atyp_difference_pct": 102.28833478235042
+  },
+  "training": {
+    "final_train_loss": 0.9985256195068359,
+    "final_val_loss": 1.0007275342941284,
+    "final_train_mae": 0.6202643513679504,
+    "final_val_mae": 0.6234571933746338,
+    "n_epochs": 16,
+    "early_stopped": true
+  }
+}

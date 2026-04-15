@@ -1,0 +1,72 @@
+# Dataset (trop lourd pour GitHub)
+ptb-xl-data/
+*.dat
+*.hea
+
+# Modèles entraînés (lourds)
+output/models/*.keras
+output/models/*.h5
+output/models/*.pt
+output/models/*.pkl
+output_validated/models/*.keras
+output_validated/models/*.h5
+output_validated/models/*.pt
+output_validated/models/*.pkl
+
+# Embeddings et données volumineuses
+output/embeddings/*.npy
+output_validated/embeddings/*.npy
+
+# Graphes lourds
+output/graph/*.graphml
+output_validated/graph/*.graphml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak

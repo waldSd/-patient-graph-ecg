@@ -1,0 +1,38 @@
+{
+  "dataset": {
+    "n_patients": 1000,
+    "sampling_rate": 100,
+    "signal_duration": 10,
+    "n_leads": 12,
+    "mean_age": 60.977,
+    "median_age": 60.0,
+    "n_male": 472,
+    "n_female": 528
+  },
+  "model": {
+    "embedding_dim": 64,
+    "compression_ratio": 187.5,
+    "final_train_loss": 0.05663144588470459,
+    "final_val_loss": 0.051076583564281464,
+    "final_train_mae": 0.12077333778142929,
+    "final_val_mae": 0.11542540788650513,
+    "n_epochs": 29
+  },
+  "graph": {
+    "n_nodes": 1000,
+    "n_edges": 7185,
+    "avg_degree": 14.37,
+    "k_neighbors": 10,
+    "avg_similarity": 0.998882413034897
+  },
+  "metrics": {
+    "avg_representativeness": 0.9818579637579319,
+    "min_representativeness": 0.0,
+    "max_representativeness": 0.999999934385318,
+    "avg_atypicality": 0.018141332121269692,
+    "min_atypicality": 0.0,
+    "max_atypicality": 0.999999934385282,
+    "n_prototypes": 10,
+    "n_atypical": 10
+  }
+}
