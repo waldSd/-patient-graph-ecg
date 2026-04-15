@@ -31,7 +31,7 @@ Démonstration d'une approche combinant **deep learning** et **théorie des grap
 
 ##  Documentation
 
-**Rapport complet** : [rapport/rapport.pdf](rapport/rapport.pdf)
+**Rapport complet** : [rapport/rapport.pdf](rapport/Rapport_Graphes_Patients.pdf)
 
 Le rapport PDF (17 pages) contient :
 - Méthodologie complète et justification de tous les choix architecturaux
