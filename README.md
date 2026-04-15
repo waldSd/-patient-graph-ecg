@@ -195,7 +195,6 @@ Le notebook contient toutes les visualisations pré-calculées (UMAP, graphe, m�
 
 MIT License
 
-## 🙏 Remerciements
 
 - Dataset PTB-XL : PhysioNet
 - Framework TensorFlow/Keras pour l'auto-encodeur
