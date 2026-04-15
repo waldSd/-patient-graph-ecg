@@ -24,12 +24,12 @@ Démonstration d'une approche combinant **deep learning** et **théorie des grap
 
 ### Généralisation aux Nouveaux Patients (Test Set)
 
-✅ **Excellente généralisation prouvée** :
+ **Excellente généralisation prouvée** :
 - Représentativité : 94.87% (train) vs 89.63% (test)
 - **Différence : seulement 5.53%** ✨
 - Les 200 patients test s'intègrent naturellement dans le graphe train
 
-## 📑 Documentation
+##  Documentation
 
 **Rapport complet** : [rapport/rapport.pdf](rapport/rapport.pdf)
 
@@ -40,7 +40,7 @@ Le rapport PDF (17 pages) contient :
 - Discussion sur l'alignement avec le raisonnement clinique
 - Extensions possibles
 
-## 📁 Structure du Projet
+##  Structure du Projet
 
 ```
 patient_graph_module/
@@ -69,7 +69,7 @@ patient_graph_module/
 └── requirements.txt                   # Dépendances Python
 ```
 
-## 🚀 Installation et Utilisation
+##  Installation et Utilisation
 
 ### Prérequis
 
@@ -143,7 +143,7 @@ jupyter notebook training_notebook.ipynb
 
 Le notebook contient toutes les visualisations pré-calculées (UMAP, graphe, métriques).
 
-## 🎨 Visualisations
+##  Visualisations
 
 ### Graphe de Patients 2D (UMAP)
 
@@ -163,7 +163,7 @@ Le notebook contient toutes les visualisations pré-calculées (UMAP, graphe, m�
 
 *Convergence rapide (16 époques) sans sur-apprentissage.*
 
-## 🧠 Concepts Clés
+##  Concepts Clés
 
 ### Auto-encodeur CNN 1D
 - Architecture : 4 blocs convolutifs (32, 64, 128, 256 filtres)
@@ -186,12 +186,12 @@ Le notebook contient toutes les visualisations pré-calculées (UMAP, graphe, m�
 - Patients atypiques : cas rares nécessitant expertise
 - Utile pour détection d'anomalies
 
-## 📚 Références
+## Références
 
 - **Dataset** : Wagner et al. (2020). PTB-XL, a large publicly available electrocardiography dataset. *Scientific Data*, 7(1), 1-15.
 - **Psychologie cognitive** : Rosch, E. (1973). Natural categories and prototypes. *Cognitive Psychology*, 4(3), 328-350.
 
-## 📄 Licence
+##  Licence
 
 MIT License
 
